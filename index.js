@@ -30,7 +30,7 @@ function checkPersian(str){
 module.exports = {
     // Map of hooks
     hooks: {
-      "page": function(page) {
+      page: function(page) {
         return makeRTL(page.content);
       }
     },
