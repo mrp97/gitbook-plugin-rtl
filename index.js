@@ -33,11 +33,5 @@ module.exports = {
       page: function(page) {
         return makeRTL(page.content);
       }
-    },
-
-    // Map of new blocks
-    blocks: {},
-
-    // Map of new filters
-    filters: {}
+    }
 };
