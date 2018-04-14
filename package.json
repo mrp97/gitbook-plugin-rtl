@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-rtl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A plugin for rtl books in gitbook",
   "main": "index.js",
   "engines": {
