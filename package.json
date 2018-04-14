@@ -1,0 +1,22 @@
+{
+  "name": "gitbook-plugin-rtl",
+  "version": "1.0.0",
+  "description": "A plugin for rtl books in gitbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrp97/gitbook-plugin-rtl.git"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "mrp97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrp97/gitbook-plugin-rtl/issues"
+  },
+  "homepage": "https://github.com/mrp97/gitbook-plugin-rtl#readme"
+}
