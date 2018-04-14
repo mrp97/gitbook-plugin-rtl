@@ -31,7 +31,7 @@ module.exports = {
     // Map of hooks
     hooks: {
       page: function(page) {
-        page.content = makeRTL(page.content);
+        page.content = page.content.replace("LEG","TESTSTSTST");
         return page;
       }
     }
