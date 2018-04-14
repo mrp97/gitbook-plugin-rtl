@@ -33,9 +33,10 @@ module.exports = {
       page: function(page) {
         var elements = ['h1','h2','h3','h4','h5','h6','p'];
         var $ = cheerio.load(page.content);
-
+        console.log(page.content);
         elements.forEach(function(element){
           $('section').find(element).each(function(i, elem){
+            console.log(elem);
             const $this = $(this);
             if(checkPersian($this.text().trimLeft().charAt(0))){
               $this.attr("dir","rtl")
