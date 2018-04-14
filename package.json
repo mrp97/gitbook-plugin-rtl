@@ -1,10 +1,10 @@
 {
   "name": "gitbook-plugin-rtl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for rtl books in gitbook",
   "main": "index.js",
   "engines": {
-        "gitbook": ">1.x.x"
+    "gitbook": ">1.x.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
